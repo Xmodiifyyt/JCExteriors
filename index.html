@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC Exteriors - Power Washing and Soft Washing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/Power Washing (1).png" alt="JC Exteriors Logo">
+        <h1>JC Exteriors - Power Washing and Soft Washing Services</h1>
+    </header>
+    <div class="container">
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"John recently pressure washed my house, and I'm thrilled with the results! The pricing was upfront and very competitive, with no surprises. John was friendly, easy to work with, and very professional. He was always on time and communicated well throughout the process. He was thorough, ensuring every nook and cranny was perfectly cleaned. My house looks like new again! I wholeheartedly recommend John for any pressure washing job and will definitely hire him again in the future." - <strong>Ryan</strong></p>
+                <p>★★★★★</p>
+            </div>
+            <div class="testimonial">
+                <p>"Great job on my patio..better than expected." - <strong>Theresa</strong></p>
+                <p>★★★★★</p>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Before and After</h2>
+            <img src="/mnt/data/IMG_2207.PNG" alt="Before and After 1">
+            <img src="/mnt/data/IMG_2206.PNG" alt="Before and After 2">
+            <img src="/mnt/data/IMG_2205.PNG" alt="Before and After 3">
+            <img src="/mnt/data/IMG_2204.PNG" alt="Before and After 4">
+        </section>
+        <section class="reviews">
+            <h2>Leave a Review</h2>
+            <form class="review-form" id="reviewForm">
+                <input type="text" id="reviewerName" placeholder="Your Name" required>
+                <textarea id="reviewText" rows="4" placeholder="Your Review" required></textarea>
+                <div class="rating-stars">
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+                </div>
+                <button type="submit">Submit Review</button>
+                <div class="confirmation-message" id="confirmationMessage" style="display: none;">
+                    Thank you for your review!
+                </div>
+            </form>
+            <div id="submittedReviews"></div>
+        </section>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
